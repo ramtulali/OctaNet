@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+.top{
+    width: 100%;
+    min-width: 100vh;
+    background-image: url(https://getwallpapers.com/wallpaper/full/6/f/0/955802-new-backgrounds-of-nature-1920x1080-lockscreen.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0 ,0, 0, 0, 295);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+    color: white;
+    bottom: 5%;
+
+}
+
+.text h1{
+    background-image: url(https://images.pexels.com/photos/1590549/pexels-photo-1590549.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 220px;
+}
+
+.rtext{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rtext p{
+    font-size: 12px;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+}
+.b1{
+    width: 30%;
+    min-height: inherit;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F49%2F21%2F37%2F492137c91e5a14b59c523aa194222b2a.jpg&f=1&nofb=1&ipt=8c5f913893468ef8f58af7bcecc1087db7f89aba033243229154824ae22ab411&ipo=images);
+    background-size: cover;
+    background-position: center;
+}
+.h1{
+    width: 30%;
+    min-height: inherit;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F12%2F36%2F4f%2F12364f74fa0a802dd03d1cf5b7be2ce7.jpg&f=1&nofb=1&ipt=6e0677edcb3c03a43318d6546f1db67b322ca2e99f02e70118ed6cea88a10e77&ipo=images);
+    background-size: cover;
+    background-position: center;
+}
+.b1 h1{
+    text-align: center;
+    padding: 30px;
+}
+
+.b1 p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.b2{
+    width: 30%;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.b2 .up{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fe9%2F7d%2F62%2Fe97d622921cb56fa239fd56f138540d7.jpg&f=1&nofb=1&ipt=0090a3900cbac540bdd524f2c4040e71afa39f97b92094b66c2de0bb00ce55de&ipo=images);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .up h1{
+    text-align: center;
+    padding: 30px;
+}
+.b2 .up p{
+    color: white;
+    text-align: center;
+    padding: 15%;
+}
+.b2 .down{
+    width: 40%;
+    min-height: 20vh;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjooinn.com%2Fimages%2Fred-rose-photography-1.jpg&f=1&nofb=1&ipt=c5284a83cdb2e3e933327441624d54329767e490be92e37c1f7768762aa5795f&ipo=images);
+    background-size: cover;
+    background-position: center;
+
+}
+.b2 .down .overlay{
+    position: relative;
+    width: 100%;
+    min-height: 20vh;
+    background-color: white;
+}
+.b3{
+    width: 40%;
+    min-height: inherit;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F48%2F4f%2F27%2F484f27b7bb2fca471127f6b66a293a47.jpg&f=1&nofb=1&ipt=910654fdb345e5933359886da7bbf3936ff45526aa141296c15046bd65d9343d&ipo=images);
+    background-size: cover;
+    background-position: center;
+}
+.b3 .overlay{
+    justify-content: center;
+    position: relative;
+    margin-left: 50%;
+    width: 50%;
+    height: 100%;
+    padding: 4vw 3vh;
+}
+
+.b3 .overlay .p{
+    padding: 1.2vh;
+}
+
+@media(max-width:500px){
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .text .h1{
+        font-size: 5vh;
+    }
+    .text .image{
+        height: 200px;
+        width: 140px;
+        margin-top: 20px;
+    }
+    .rtext{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .icons{
+        margin-top: 10px;
+    }
+    .bottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .b1{
+        width: 100%;
+        min-height: 30vh;
+    }
+    .b2{
+        width: 100%;
+    }
+    .b2 .up{
+        min-height: 30vh;
+    }   
+    .b3{
+        width: 100%;
+        min-height: 30vh;
+        background-position: left;
+    }
+}
